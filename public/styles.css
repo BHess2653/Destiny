@@ -1,0 +1,83 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin-top:110px;
+	margin-bottom: 40px;
+	background: #222;
+	color: rgb(222, 222, 222);
+	font-size:18px;
+}
+.header {
+	position:absolute;
+	top:0;
+	height:60px;
+	width: 100%;
+	background-color: rgb(78, 50, 99);
+	font-size: 24px;
+	padding-top:4px;
+}
+.container {
+	max-width: 500px;
+	margin-top: 10px;
+}
+.message {
+	margin-right: 10px;
+	margin-top: 7px;
+	vertical-align: bottom;
+}
+.results {
+	text-align: center;
+	margin-top:10px;
+}
+.results .characters {
+	margin-top:10px;
+}
+.results .character-container {
+	margin-top:30px;
+}
+.results .character-link {
+	font-weight:bold;
+	color: rgb(206, 174, 50);
+	margin-right:10px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	text-align: right;
+	background-color: #f5f5f5;
+}
+input[type=text] {
+	max-width: 350px;
+	padding-left: 5px;
+	color: #000;
+}
+.btn {
+	margin-top:15px;
+	background-color: rgb(85, 127, 158);
+	font-size:inherit;
+}
+.progress-description {
+	max-width: 300px;
+	font-size: 16px;
+	padding: 1px;
+}
+.progress {
+	max-width: 300px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(222,222,222,0.2);
+}
+.progress-bar {
+	background-color: rgb(93,164,105);
+	color: #222;
+}
+.progress-container {
+	margin-top:10px;
+}
+.google-play-link {
+	margin-top:-2px;
+}
